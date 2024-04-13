@@ -11,7 +11,7 @@
     --Deep-Jungle-Green: #004047;
     --Sacramento-State-Green: #012F34;
     --Dark-Green: #002529;
-    --Levvic-font: "Levvic";
+    --Levvic-font: "Livvic";
 }
 
 /* GLOBAL STYLES */
@@ -43,8 +43,15 @@ ul {
 
 body {
     background-color: var(--Deep-Jungle-Green);
+    font-family: var(--Levvic-font);
 }
 
+/* D-FLEX */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* ALL-BTN */
 .primary-btn {
     display: block;
@@ -101,3 +108,82 @@ body {
     background-color: var(--White);
     color: var(--Dark-Green);
 }
+
+/* SITE-HEADER */
+.site-header {
+    padding-top: 73px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.logo {
+    display: block;
+}
+.logo-image {
+    width: 160px;
+    height: 40px;
+    object-fit: cover;
+}
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+}
+.nav-link {
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    transition: .4s;
+    
+}
+
+.nav-link:hover {
+    color: var(--Light-Coral);
+    cursor: pointer;
+}
+
+
+/* SITE-HEADER */
+
+
+/* SITE-HERO */
+.site-hero {
+    /* padding-top: 129px; */
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.site-hero__title {
+    max-width: 635px;
+    width: 100%;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: var(--White);
+}
+.site-hero__span {
+    color: var(--Light-Coral);
+}
+
+.site-hero__desc {
+    max-width: 445px;
+    width: 100%;
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.site-hero__desc::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: var(--Rapture-Blue);
+    margin-bottom: 79px;
+}
+/* SITE-HERO */
