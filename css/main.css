@@ -1,1 +1,103 @@
 @import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --Midnight-Green: #014E56;
+    --Light-Coral: #F67E7E;
+    --White: #fff;
+    --Rapture-Blue: #79C8C7;
+    --Police-Blue: #2C6269;
+    --Deep-Jungle-Green: #004047;
+    --Sacramento-State-Green: #012F34;
+    --Dark-Green: #002529;
+    --Levvic-font: "Levvic";
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
+}
+/* BODY */
+
+body {
+    background-color: var(--Deep-Jungle-Green);
+}
+
+/* ALL-BTN */
+.primary-btn {
+    display: block;
+    padding: 10px 32px;
+    border-radius: 24px;
+    border: 2px solid var(--White);
+    text-align: center;
+    font-family: var(--Levvic-font);
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    background-color: transparent;
+    width: max-content;
+    color: var(--White);
+    transition: .4s;
+   
+}
+
+.primary-btn:hover {
+    background-color: var(--White);
+    color: var(--Dark-Green);
+    cursor: pointer;
+}
+
+.primary-btn:active {
+    opacity: 0.25;
+    background-color: transparent;
+    color: var(--White);
+}
+
+.secondary-btn {
+    display: block;
+    padding: 10px 32px;
+    border-radius: 24px;
+    border: 2px solid var(--White);
+    text-align: center;
+    font-family: var(--Levvic-font);
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 18px;
+    background-color: var(--White);
+    width: max-content;
+    color: var(--Dark-Green);
+    transition: .4s;
+}
+
+.secondary-btn:hover {
+    background-color: var(--Rapture-Blue);
+    border: 2px solid var(--Rapture-Blue);
+}
+
+.secondary-btn:active {
+    opacity: 0.25;
+    background-color: var(--White);
+    color: var(--Dark-Green);
+}
