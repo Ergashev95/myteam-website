@@ -164,7 +164,8 @@ body {
     /* padding-top: 129px; */
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
+    position: relative;
 }
 
 .site-hero__title {
@@ -188,6 +189,13 @@ body {
     line-height: 28px;
 }
 
+.site-hero__bottom--img {
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+   
+}
+
 .site-hero__desc::before {
     content: "";
     display: block;
@@ -195,6 +203,7 @@ body {
     height: 4px;
     background-color: var(--Rapture-Blue);
     margin-bottom: 79px;
+
 }
 
 .site-hero__content::before {
@@ -207,8 +216,17 @@ body {
 /* OFFER SECTION */
 .offer {
     background-color: var(--Dark-Green);
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 198px;
+    padding-bottom: 198px;
+    position: relative;
+    overflow: hidden;
+}
+
+.offer::after {
+    content: url(../img/bg-pattern-home-3.svg);
+    position: absolute;
+    right: -100px;
+    bottom: 0;
 }
 
 .offer-content {
@@ -231,14 +249,12 @@ body {
     width: 50px;
     height: 4px;
     background-color: var(--Light-Coral);
-   position: absolute;
-   top: -54px;
+    position: absolute;
+    top: -54px;
 
  
 }
-.offer-content__service {
 
-}
 .offer-bulid {
     display: flex;
     flex-direction: column;
