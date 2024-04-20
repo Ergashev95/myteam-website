@@ -389,3 +389,41 @@ body {
     object-fit: cover;
 }
 /* DELIVERY SECTION */
+
+/* CONTACT SECTION */
+
+.contact {
+    background-color: var(--Light-Coral);
+    padding-top: 76px;
+    padding-bottom: 76px;
+    position: relative;
+    overflow: hidden;
+}
+.contact::before {
+    content: url(../img/bg-pattern-home-6-about-5.svg);
+    position: absolute;
+    bottom: -5px;
+}
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--Sacramento-State-Green);
+}
+.contact-btn {
+    border: 2px solid var(--Sacramento-State-Green);
+    color: var(--Sacramento-State-Green);
+}
+
+.contact-btn:hover {
+    background-color: var(--Sacramento-State-Green);
+    color: var(--White);
+}
+
+
+/* CONTACT SECTION */
