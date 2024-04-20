@@ -214,13 +214,12 @@
         opacity: 0;
         transition: .4s;
         row-gap: 36px;
-    
-        
+        z-index: 99;
     }
     .nav-list {
         display: flex;
         flex-direction: column;
-       row-gap: 24px;
+        row-gap: 24px;
        
     }
 
