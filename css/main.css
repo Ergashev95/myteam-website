@@ -427,3 +427,66 @@ body {
 
 
 /* CONTACT SECTION */
+
+
+/* SITE FOOTER */
+.site-footer {
+    background-color: var(--Dark-Green);
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu {
+    display: flex;
+    column-gap: 125px;
+}
+.footer-menu__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.footer-logo__image {
+}
+
+
+.footer-contact {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: .6;
+}
+.footer-contact__phone {
+    color: var(--White);
+}
+
+.social {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-list {
+    display: flex;
+    column-gap: 16px;
+    justify-content: flex-end;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--White);
+    opacity: 0.6;
+}
+.social-link {
+    color: var(--White);
+    transition: .4s;
+}
+.social-link:hover {
+    color: var(--Light-Coral);
+}
+/* SITE FOOTER */
