@@ -293,6 +293,20 @@ body {
 .delivery {
     padding-top: 140px;
     padding-bottom: 140px;
+    position: relative;
+}
+
+.delivery::before {
+    content: url(../img/bg-pattern-home-4-about-3.svg);
+    position: absolute;
+    top: 0;
+}
+
+.delivery::after {
+    content: url(../img/bg-pattern-home-5.svg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .delivery-content {
