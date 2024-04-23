@@ -474,6 +474,130 @@ body {
         background-color: var(--Light-Coral);
     }
     /* ABOUT COMPANIES */
+
+
+    /* ABOUT TEAM */
+
+    .team {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .team-title {
+        color: var(--White);
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .team-cards {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 76px;
+    }
+    .team-card {
+        max-width: 350px;
+        width: 100%;
+        height: 253px;
+        background-color: var(--Sacramento-State-Green);
+        padding: 32px 24px 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    
+
+    }
+    .team-ava {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        border: 2px solid var(--Rapture-Blue);
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .team-ava__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+
+    }
+    .team-person__name {
+        color: var(--Rapture-Blue);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .team-person__job {
+        color: var(--White);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        font-style: italic
+    }
+    .team-about__more {
+        width: 56px;
+        height: 56px;
+        background-color: var(--Light-Coral);
+        border-radius: 50%;
+        border: unset;
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        bottom: -28px;
+        transition: .4s;
+        z-index: 99;
+    }
+    .team-about__more:hover {
+        cursor: pointer;
+    }
+    /* .team-about__more:hover ~ .team-card__content {
+        transform: scale(1);
+    } */
+    /* .team-about__more:active {
+        background-color: var(--Light-Coral);
+    } */
+    .team-card__content {
+        width: 100%;
+        height: 100%;
+        background-color: var(--Dark-Green);
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 35px;
+        padding-left: 24px;
+        padding-right: 24px;
+        /* opacity: 0; */
+        transform: scale(0);
+        transition: .5s;
+    }
+    .team-person__desc {
+        margin-top: 8px;
+        margin-bottom: 24px;
+        color: var(--White);
+        font-weight: 15px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+   
+    .team-person__social {
+        display: flex;
+        column-gap: 16px;
+        justify-content: center;
+    }
+
+    .active {
+        background-color: var(--Light-Coral) !important;
+    }
+
+    .active-content {
+        transform: scale(1);
+    }
+  
+    /* ABOUT TEAM */
 /* ABOUT PAGE */
 
 
