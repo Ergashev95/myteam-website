@@ -42,7 +42,7 @@ ul {
 /* BODY */
 
 body {
-    background-color: var(--Deep-Jungle-Green);
+    background-color: var(--Midnight-Green);
     font-family: var(--Levvic-font);
     /* height: 2000px; */
 }
@@ -481,6 +481,23 @@ body {
     .team {
         padding-top: 140px;
         padding-bottom: 140px;
+        background-color: var(--Deep-Jungle-Green);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .team::before {
+        content: url(../img/bg-pattern-about-2-contact-1.svg);
+        position: absolute;
+        top: 0;
+        left: -100px;
+    }
+    
+    .team::after {
+        content: url(../img/bg-pattern-home-4-about-3.svg);
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 
     .team-title {

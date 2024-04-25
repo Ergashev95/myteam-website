@@ -2,7 +2,6 @@ const  elBtn = [...document.querySelectorAll('.team-about__more')]
 const teamCardContent = [...document.querySelectorAll('.team-card__content')]
 
 for (let i = 0; i < elBtn.length; i++) {
-   
     elBtn[i].addEventListener('mouseover',() => {
         elBtn[i].style.background = '#79C8C7'
     })
@@ -13,9 +12,15 @@ for (let i = 0; i < elBtn.length; i++) {
     elBtn[i].addEventListener('click',() => {
         elBtn[i].classList.toggle('active')
         for (let k = 0; k < teamCardContent.length; k++) {
-            teamCardContent[k].classList.toggle('active-content')
-            
+            teamCardContent[i].classList.add('active-content')
+            teamCardContent[k].classList.remove('active-content')
         }
     })
-    
 }
+
+
+
+
+
+
+
