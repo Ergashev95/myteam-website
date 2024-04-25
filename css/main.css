@@ -669,7 +669,7 @@ body {
 .contact-page::after {
     content: url(../img/bg-pattern-contact-2.svg);
     position: absolute;
-    right: -100px;
+    right: -115px;
     bottom: 0;
 }
 
