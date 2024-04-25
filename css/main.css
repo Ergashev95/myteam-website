@@ -570,12 +570,7 @@ body {
     .team-about__more:hover {
         cursor: pointer;
     }
-    /* .team-about__more:hover ~ .team-card__content {
-        transform: scale(1);
-    } */
-    /* .team-about__more:active {
-        background-color: var(--Light-Coral);
-    } */
+  
     .team-card__content {
         width: 100%;
         height: 100%;
@@ -615,6 +610,45 @@ body {
     }
   
     /* ABOUT TEAM */
+
+    /* ABOUT CLIENT */
+    .clients {
+        padding-top: 140px;
+        padding-bottom: 150px;
+        background-color: var(--Dark-Green);
+        position: relative;
+
+    }
+    .clients::before {
+        content: url(../img/bg-pattern-about-4.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+ 
+    .our-client__title {
+        text-align: center;
+        color: var(--White);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 70px;
+    }
+    .client-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cleint-logo__link {
+        display: block;
+    }
+    .client-logo {
+        max-width: 165px;
+        width: 100%;
+        height: auto;
+    }
+    /* ABOUT CLIENT */
+
 /* ABOUT PAGE */
 
 
