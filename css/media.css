@@ -114,6 +114,25 @@
     }
     /* CONTACT SECTION */
 
+    /* ABOUT PAGE */
+    .team {
+        padding-top: 100px;
+        padding-bottom: 128px;
+    }
+    .team-title  {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .team-cards {
+        justify-content: center;
+        column-gap: 11px;
+    }
+    .team-card {
+        max-width: 281px;
+        width: 48%;
+    }
+    /* ABOUT PAGE */
+
     /* SITE FOOTER */
     .site-footer {
         padding-top: 56px;
@@ -358,6 +377,33 @@
     .about-companies::after {
         bottom: -100px;
     }
+
+    .team {
+        padding-top: 88px;
+        padding-bottom: 116px;
+    }
+    .team::before {
+      
+        top: -100px;
+        left: -100px;
+    }
+    .team-title  {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 48px;
+    }
+    .team-cards {
+        justify-content: center;
+        row-gap: 52px;
+       
+    }
+    .team-card {
+        max-width: unset;
+        width: 100%;
+    }
+
+
+
     /* ABOUT COMPANIES */
 
        /* SITE FOOTER */
