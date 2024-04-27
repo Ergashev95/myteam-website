@@ -300,7 +300,7 @@
     top: 0;
     right: 0;
     width: 255px;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: #2c6269;
@@ -323,7 +323,19 @@
     flex-direction: column;
     row-gap: 24px;
   }
-
+    .site-hero__content {
+      align-items: flex-start;
+    }
+    .site-hero__title {
+      margin: unset;
+    }
+    .site-hero__bottom--img {
+      position: absolute;
+      bottom: 0;
+    left: 18%;
+      
+  }
+  
   /* OFFER SECTION */
   .offer {
     padding-top: 100px;
