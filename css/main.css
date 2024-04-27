@@ -653,7 +653,7 @@ body {
 
 /* CONTACT PAGE */
 .contact-page {
-    padding-top: 130px;
+    margin-top: 130px;
     padding-bottom: 128px;
     position: relative;
     overflow: hidden;
@@ -662,7 +662,7 @@ body {
     content: url(../img/bg-pattern-about-2-contact-1.svg);
     position: absolute;
     left: -100px;
-    top: 20%;
+    top: 0;
 
 }
 
